@@ -21,7 +21,8 @@ When a customer abandons their cart, the `/abandoned-cart` endpoint is hit and t
 A `schedulerService` runs every 60 seconds and sends out SMS and email messages to the customers according to the events in the `scheduler` table.
 
 When a customer places an order, the `/order` endpoint is hit and the order-related data is stored in the `order` table. At the same time, the status for the `abandoned_cart` and `scheduler` are updated for that respective order.
-![order.png](src%2Fmain%2Fresources%2Fimages%2Forder.png)
+
+![order_flow.png](src%2Fmain%2Fresources%2Fimages%2Forder_flow.png)
 
 ## Endpoints
 
