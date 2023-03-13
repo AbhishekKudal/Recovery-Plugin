@@ -35,7 +35,7 @@ The following REST endpoints are available:
 
 ## Usage Example
 
-Suppose a customer adds products to their cart and abandons the checkout at 5:30 PM. The e-commerce provider's backend triggers a call to the `/abandoned-cart` webhook with below **sample details** of the checkout.
+Suppose a customer adds products to their cart and abandons the checkout at time T. The e-commerce provider's backend triggers a call to the `/abandoned-cart` webhook with below **sample details** of the checkout.
 
 ```json
 {
